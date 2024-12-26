@@ -1,1 +1,4 @@
-{"db_url":"postgres://example","current_user_name":"waffles"}
+{
+    "db_url":   "postgres://devint@localhost:5432/gator?sslmode=disable",
+    "current_user_name":    "boots"
+}

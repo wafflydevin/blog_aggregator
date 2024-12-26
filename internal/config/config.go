@@ -46,7 +46,7 @@ func getConfigFilePath() (string, error) {
 		return "", err
 	}
 
-	fullPath := filepath.Join(home, getPath(), configFileName)
+	fullPath := filepath.Join(home, configFileName)
 	return fullPath, nil
 }
 
